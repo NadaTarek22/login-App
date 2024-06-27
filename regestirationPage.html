@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Regesteration</title>
+
+  <link rel="stylesheet" href="CSS/all.min.css">
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/style.css">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    
+
+<div id="signUpForm" class=" container my-5 text-center ">
+
+    <div class="w-75 p-5 m-auto divShadow">
+      <h1 class="h1Style">Smart Login System</h1>
+      <input id="signinName" class="form-control my-3 " type="text" placeholder="Enter your name" >
+      <input id="signInEmail2" class="form-control my-3 " type="text" placeholder="Enter your email" >
+      <input id="signInPass2" type="password" class="form-control my-3 " type="text" placeholder="Enter your password" >
+
+      <p class="text-green successMsg form-hidden">Success</p>
+      <p class="text-danger errorssMsg form-hidden">Invalid inputs</p>
+      <p class="text-danger warnningMsg form-hidden">All inputs is required</p>
+      <p class="text-danger emailExMsg form-hidden">Email already exist</p>
+
+
+
+      <button id="signUpBtn" class="btn btn-outline-info w-100 my-3">Sign Up</button>
+      <p class="text-white">
+        Don’t have an account?
+        <a id="signInLink" class="text-white" href="./index.html" >Sign In</a>
+      </p>
+
+    </div>
+
+  </div>
+
+  <script src="JS/bootstrap.bundle.min.js"></script>
+  <script src="JS/regestir.js"></script>
+</body>
+
+</html>
