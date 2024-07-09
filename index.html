@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+
+  <link rel="stylesheet" href="CSS/all.min.css">
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/style.css">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <div id="loginForm" class="container my-5  text-center ">
+
+    <div class="w-75 p-5 m-auto divShadow">
+      <h1 class="h1Style">Smart Login System</h1>
+      <input  id="signInEmail" class=" form-control my-3 " type="text" placeholder="Enter your email" >
+      <input id="signInPass" type="password" class=" form-control my-3 " type="text" placeholder="Enter your password" >
+
+      <p class="text-danger paragraph1 form-hidden">
+        incorrect email or password
+      </p>
+      <p class="text-danger paragraph2 form-hidden">
+        All inputs is required
+      </p>
+
+      <div >
+        <a id="anch" href="#">
+          <button id="loginBtn" class="btn btn-outline-info w-100 my-3">Login</button>
+        </a>
+      </div>
+
+
+      <p class="text-white">
+        Don’t have an account?
+        <a id="signUpLink" class="text-white" href="./regestirationPage.html" >Sign Up</a>
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <div id="welcomePage" class="form-hidden" >
+    <nav class="navbar navbar-expand-lg navbar-dark divShadow">
+      <div class="container ">
+        <a class="navbar-brand" href="">SMART LOGIN</a>
+        <a href="./index.html">
+            <button id="logoutBtn" class="btn btn-outline-warning">Logout</button>
+        </a>
+      </div>
+  
+    </nav>
+    <div class="container welcome-page-h my-5 text-center  h-100 d-flex justify-content-center align-items-center">
+      <div class="my-5 w-75 p-5 divShadow">
+        <h1 id="h1Text" class="h1Style"> </h1>
+      </div>
+    </div>
+  </div>
+
+  
+  
+  <script src="JS/bootstrap.bundle.min.js"></script>
+  <script src="JS/main.js"></script>
+</body>
+</html>
